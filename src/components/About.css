@@ -1,0 +1,41 @@
+.form-container{
+    width: 40vw;
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 30px;
+    
+}
+.form-div{
+    display: flex;
+    justify-content: center;
+}
+h2{
+    
+ text-align: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+form div{
+    margin-top: 12px;
+    display: flex;
+    flex-direction: column;
+}
+form input{
+    width: 250px;
+}
+form button{
+    width: 70px;
+    margin: auto;
+    background-color: black;
+    margin-bottom: 12px;
+    margin-top: 12px;
+    color: white;
+    border-radius: 8px;
+
+}
+form textarea{
+    width: 250px;
+    
+}
